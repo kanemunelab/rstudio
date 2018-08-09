@@ -60,7 +60,7 @@ public class ConnectionsTab extends DelayLoadWorkbenchTab<ConnectionsPresenter>
                          Session session, 
                          UIPrefs uiPrefs)
    {
-      super("Connections", shim);
+      super("接続", shim);
       binder.bind(commands, shim);
       session_ = session;
       eventBus_ = eventBus;

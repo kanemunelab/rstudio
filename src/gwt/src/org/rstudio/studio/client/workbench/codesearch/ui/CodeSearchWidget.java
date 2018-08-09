@@ -36,7 +36,7 @@ public class CodeSearchWidget extends SearchWidget
                            final Commands commands)
    {
       super(oracle, 
-            new TextBoxWithCue("Go to file/function"), 
+            new TextBoxWithCue("ファイル/関数に移動"), 
             new SuggestBox.DefaultSuggestionDisplay());
       
       oracle_ = oracle;   

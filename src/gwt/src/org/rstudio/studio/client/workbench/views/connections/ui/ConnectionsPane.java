@@ -136,7 +136,7 @@ public class ConnectionsPane extends WorkbenchPane
             return connection.getDisplayName();
          }
       };      
-      connectionsDataGrid_.addColumn(hostColumn_, new TextHeader("Connection"));
+      connectionsDataGrid_.addColumn(hostColumn_, new TextHeader("接続"));
       connectionsDataGrid_.setColumnWidth(hostColumn_, 50, Unit.PCT);
       
       // add status column
@@ -152,7 +152,7 @@ public class ConnectionsPane extends WorkbenchPane
          }
       };
       statusColumn_.setCellStyleNames(RES.dataGridStyle().statusColumn());
-      connectionsDataGrid_.addColumn(statusColumn_, new TextHeader("Status"));
+      connectionsDataGrid_.addColumn(statusColumn_, new TextHeader("ステータス"));
       connectionsDataGrid_.setColumnWidth(statusColumn_, 75, Unit.PX);
       
       // add explore column

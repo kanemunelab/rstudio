@@ -79,7 +79,7 @@ public class EnvironmentPane extends WorkbenchPane
                           Session session,
                           UIPrefs prefs)
    {
-      super("Environment");
+      super("変数");
       
       commands_ = commands;
       eventBus_ = eventBus;

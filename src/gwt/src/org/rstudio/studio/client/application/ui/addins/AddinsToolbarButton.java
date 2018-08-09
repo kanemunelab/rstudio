@@ -55,7 +55,7 @@ public class AddinsToolbarButton extends ToolbarButton
 {
    public AddinsToolbarButton()
    {
-      super("Addins",
+      super("アドイン",
             CoreResources.INSTANCE.iconEmpty(),
             new ScrollableToolbarPopupMenu() 
             {
@@ -201,7 +201,7 @@ public class AddinsToolbarButton extends ToolbarButton
          @Override
          public Element createMainElement()
          {
-            Label label = new Label("No addins found");
+            Label label = new Label("アドインが見つかりませんでした");
             label.addStyleName(ThemeStyles.INSTANCE.menuSubheader());
             label.getElement().getStyle().setPaddingLeft(2, Unit.PX);
             return createSearchSeparator(label);

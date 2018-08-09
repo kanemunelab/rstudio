@@ -80,7 +80,7 @@ public class EnvironmentTab extends DelayLoadWorkbenchTab<EnvironmentPresenter>
                          Commands commands,
                          Session session)
    {
-      super("Environment", shim);
+      super("変数", shim);
       binder.bind(commands, shim);
       events.addHandler(OpenDataFileEvent.TYPE, shim);
     

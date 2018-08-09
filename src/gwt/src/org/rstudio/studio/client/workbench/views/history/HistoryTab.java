@@ -42,7 +42,7 @@ public class HistoryTab extends DelayLoadWorkbenchTab<History>
    @Inject
    public HistoryTab(Shim shim, Binder binder, Commands commands)
    {
-      super("History", shim);
+      super("履歴", shim);
       binder.bind(commands, shim);
    }
 }

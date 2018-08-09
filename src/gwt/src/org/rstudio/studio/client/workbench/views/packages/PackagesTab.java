@@ -53,7 +53,7 @@ public class PackagesTab extends DelayLoadWorkbenchTab<Packages>
                       UIPrefs uiPrefs,
                       Session session)
    {
-      super("Packages", shim);
+      super("パッケージ", shim);
       binder.bind(commands, shim);
       events.addHandler(LoadedPackageUpdatesEvent.TYPE, shim);
       events.addHandler(RaisePackagePaneEvent.TYPE, shim);

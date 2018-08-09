@@ -56,7 +56,7 @@ public class ConsolePane extends WorkbenchPane
                       Commands commands,
                       Session session)
    {
-      super("Console");
+      super("コンソール");
 
       consoleProvider_ = consoleProvider;
       progressProvider_ = progressProvider;

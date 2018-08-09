@@ -101,7 +101,7 @@ public class TerminalTab extends DelayLoadWorkbenchTab<TerminalTabPresenter>
                       Provider<ConsoleProcessFactory> pConsoleProcessFactory,
                       final Session session)
    {
-      super("Terminal", shim);
+      super("ターミナル", shim);
       shim_ = shim;
       pConsoleProcessFactory_ = pConsoleProcessFactory;
 

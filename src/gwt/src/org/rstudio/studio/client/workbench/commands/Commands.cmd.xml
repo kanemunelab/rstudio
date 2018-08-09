@@ -40,8 +40,8 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_File">
-         <menu label="New _File">
+      <menu label="ファイル">
+         <menu label="新規ファイル">
             <cmd refid="newSourceDoc"/>
             <separator/>
             <cmd refid="newRNotebook"/>
@@ -65,7 +65,7 @@ well as menu structures (for main menu and popup menus).
          <separator/>
          <cmd refid="openSourceDoc"/>
          <cmd refid="reopenSourceDocWithEncoding"/>
-         <menu label="_Recent Files">
+         <menu label="最近使ったファイル">
             <cmd refid="mru0"/>
             <cmd refid="mru1"/>
             <cmd refid="mru2"/>
@@ -87,7 +87,7 @@ well as menu structures (for main menu and popup menus).
          <separator/>
          <cmd refid="openProject"/>
          <cmd refid="openProjectInNewWindow"/>
-         <menu label="Recent Pro_jects">
+         <menu label="最近使ったプロジェクト">
             <cmd refid="projectMru0"/>
             <cmd refid="projectMru1"/>
             <cmd refid="projectMru2"/>
@@ -109,7 +109,7 @@ well as menu structures (for main menu and popup menus).
          <separator/>
          <cmd refid="shareProject"/>
          <separator/>
-         <menu label="_Import Dataset">
+         <menu label="データセットのインポート">
             <cmd refid="importDatasetFromCsvUsingBase"/>
             <cmd refid="importDatasetFromCsvUsingReadr"/>
             <cmd refid="importDatasetFromFile"/>
@@ -156,7 +156,7 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_Edit">
+      <menu label="編集">
          <cmd refid="sourceNavigateBack"/>
          <cmd refid="sourceNavigateForward"/>
          <separator/>
@@ -167,7 +167,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="copyDummy"/>
          <cmd refid="pasteDummy"/>
          <separator/>
-         <menu label="_Folding">
+         <menu label="折りたたみ">
             <cmd refid="fold"/>
             <cmd refid="unfold"/>
             <separator/>
@@ -200,7 +200,7 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_Code">
+      <menu label="コード">
          <cmd refid="insertChunk"/>
          <cmd refid="insertSection"/>
          <separator/>
@@ -255,13 +255,13 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_View">
+      <menu label="ビュー">
          <cmd refid="showToolbar"/>
          <cmd refid="hideToolbar"/>
          
          <separator/>
          
-         <menu label="P_anes">
+         <menu label="パネル">
             <cmd refid="layoutEndZoom"/>
             <separator/>
             <cmd refid="layoutConsoleOnLeft"/>
@@ -320,7 +320,7 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_Plots">
+      <menu label="プロット">
          <cmd refid="nextPlot"/>
          <cmd refid="previousPlot"/>
          <separator/>
@@ -338,7 +338,7 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_Session">
+      <menu label="セッション">
          <cmd refid="newSession"/>
          <separator/>
          <cmd refid="interruptR"/>
@@ -349,7 +349,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="restartRClearOutput"/>
          <cmd refid="restartRRunAllChunks"/>
          <separator/>
-         <menu label="Set _Working Directory">
+         <menu label="ワーキングディレクトリの設定">
             <cmd refid="setWorkingDirToProjectDir"/>
             <cmd refid="setWorkingDirToActiveDoc"/>
             <cmd refid="setWorkingDirToFilesPane"/>
@@ -365,7 +365,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="quitSession"/>
       </menu>
 
-      <menu label="_Build">
+      <menu label="ビルド">
          <cmd refid="devtoolsLoadAll"/>
          <cmd refid="buildAll"/>
          <cmd refid="rebuildAll"/>
@@ -385,7 +385,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="buildToolsProjectSetup"/>
       </menu>
 
-      <menu label="_Debug">
+      <menu label="デバッグ">
          <cmd refid="debugBreakpoint"/>
          <cmd refid="debugClearBreakpoints"/>
          <separator/>
@@ -395,7 +395,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="debugContinue"/>
          <cmd refid="debugStop"/>
          <separator/>
-         <menu label="_On Error">
+         <menu label="エラー時の動作">
             <cmd refid="errorsMessage"/>
             <cmd refid="errorsTraceback"/>
             <cmd refid="errorsBreak"/>
@@ -404,7 +404,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="debugHelp"/>
       </menu>
 
-      <menu label="_Profile">
+      <menu label="プロファイラ">
          <cmd refid="startProfiler"/>
          <cmd refid="stopProfiler"/>
          <separator/>
@@ -418,11 +418,11 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_Tools">
+      <menu label="ツール">
          <cmd refid="installPackage"/>
          <cmd refid="updatePackages"/>
          <separator/>
-         <menu label="_Version Control">
+         <menu label="バージョン管理">
             <cmd refid="vcsFileDiff"/>
             <cmd refid="vcsFileLog"/>
             <cmd refid="vcsFileRevert"/>
@@ -442,7 +442,7 @@ well as menu structures (for main menu and popup menus).
          </menu>
          <separator/>
          <cmd refid="showShellDialog"/>
-         <menu label="_Terminal">
+         <menu label="ターミナル">
             <cmd refid="newTerminal"/>
             <separator/>
             <cmd refid="renameTerminal"/>
@@ -457,7 +457,7 @@ well as menu structures (for main menu and popup menus).
             <cmd refid="clearTerminalScrollbackBuffer"/>
             <cmd refid="closeTerminal"/>
           </menu>
-         <menu label="Addins">
+         <menu label="アドイン">
             <cmd refid="browseAddins"/>
          </menu>
          <separator/>
@@ -471,7 +471,7 @@ well as menu structures (for main menu and popup menus).
 
       <separator/>
 
-      <menu label="_Help">
+      <menu label="ヘルプ">
          <cmd refid="helpHome"/>
          <cmd refid="showAboutDialog"/>
          <cmd refid="showLicenseDialog"/>
@@ -481,7 +481,7 @@ well as menu structures (for main menu and popup menus).
          <cmd refid="rstudioCommunityForum"/>
          <cmd refid="rstudioSupport"/>
          <separator/>
-         <menu label="_Cheatsheets">
+         <menu label="チートシート">
             <cmd refid="openRStudioIDECheatSheet"/>'
             <cmd refid="openDataTransformationCheatSheet"/>
             <cmd refid="openDataVisualizationCheatSheet"/>
@@ -501,7 +501,7 @@ well as menu structures (for main menu and popup menus).
          <separator/>
          <cmd refid="rstudioAgreement"/>
          <separator/>
-         <menu label="Dia_gnostics">
+         <menu label="診断">
             <cmd refid="showRequestLog"/>
             <cmd refid="showLogFiles"/>
             <cmd refid="showGpuDiagnostics"/>
@@ -1978,9 +1978,9 @@ well as menu structures (for main menu and popup menus).
         rebindable="false"/>
         
    <cmd id="exportFiles"
-        label="Export Files..."
-        menuLabel="Export..."
-        buttonLabel="Export"
+        label="ファイルのエクスポート..."
+        menuLabel="エクスポート..."
+        buttonLabel="エクスポート"
         desc="Export selected files or folders"
         rebindable="false"/>
        
@@ -2242,14 +2242,14 @@ well as menu structures (for main menu and popup menus).
         context="presentation"/>
         
    <cmd id="historySendToSource"
-        menuLabel="Insert into _Source"
-        buttonLabel="To Source"
+        menuLabel="ソースから挿入する"
+        buttonLabel="ソースから挿入"
         desc="Insert the selected commands into the current document (Shift+Enter)"
         rebindable="false"/>
         
    <cmd id="historySendToConsole"
-        menuLabel="Send to _Console"
-        buttonLabel="To Console"
+        menuLabel="コンソールに送る"
+        buttonLabel="コンソールに送る"
         desc="Send the selected commands to the R console (Enter)"
         rebindable="false"/>
         
@@ -2308,18 +2308,18 @@ well as menu structures (for main menu and popup menus).
         desc="Previous plot"/>
         
    <cmd id="savePlotAsImage"
-        label="Save Plot As Image..."
-        menuLabel="Save as _Image..."
+        label="プロットを画像で保存..."
+        menuLabel="画像で保存..."
         desc="Save the current plot as an image file"/>
         
     <cmd id="savePlotAsPdf"
-         label="Save Plot as PDF..."
-         menuLabel="Save as P_DF..."
+         label="プロットをPDFで保存..."
+         menuLabel="PDFで保存..."
          desc="Save the current plot as a PDF file"/>
          
    <cmd id="copyPlotToClipboard"
-        label="Copy Current Plot to Clipboard..."
-        menuLabel="Cop_y to Clipboard..."
+        label="プロットをクリップボードにコピー..."
+        menuLabel="クリップボードにコピー..."
         desc="Copy the current plot to the clipboard"/>
         
    <cmd id="zoomPlot"
@@ -2680,7 +2680,7 @@ well as menu structures (for main menu and popup menus).
         rebindable="false"/>
         
    <cmd id="viewerZoom"
-        buttonLabel="Zoom"
+        buttonLabel="ズーム"
         desc="View a larger version in a new window"
         rebindable="false"/>
         
@@ -3184,9 +3184,9 @@ well as menu structures (for main menu and popup menus).
         rebindable="false"/>
         
    <cmd id="newConnection"
-        menuLabel="New Connection..."
-        buttonLabel="New Connection"
-        desc="Create a new connection"
+        menuLabel="..."
+        buttonLabel="新しい接続"
+        desc="新しい接続を作成"
         windowMode="main"/>
    
     <cmd id="removeConnection"
@@ -3224,8 +3224,8 @@ well as menu structures (for main menu and popup menus).
          windowMode="main"/>
 
     <cmd id="startJob"
-         menuLabel="Start Job..."
-         buttonLabel="Start Job"
+         menuLabel="ジョブの実行..."
+         buttonLabel="ジョブの実行"
          desc="Run an R script as a job"
          windowMode="main"/>
 
@@ -3235,7 +3235,7 @@ well as menu structures (for main menu and popup menus).
          windowMode="any"/>
 
     <cmd id="clearJobs"
-         menuLabel="Clear Jobs"
+         menuLabel="ジョブのクリア"
          desc="Clean up all completed jobs"
          windowMode="main"/>
         
